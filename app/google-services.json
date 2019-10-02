@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "60462519010",
+    "firebase_url": "https://muqit-a9b1b.firebaseio.com",
+    "project_id": "muqit-a9b1b",
+    "storage_bucket": "muqit-a9b1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60462519010:android:10d60b62c6273e00cb04bb",
+        "android_client_info": {
+          "package_name": "com.example.muqitt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60462519010-7uspftt0nepgmkksn4nj0e6vkv3ordv6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.muqitt",
+            "certificate_hash": "1b88f34d7c25fcd2183444027782b7c8f51ce905"
+          }
+        },
+        {
+          "client_id": "60462519010-48rjml20agebk2125q47tqk8gr1e3qku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC08uyx_kh9BFdoz8r9EEQrPwjmWd4sP9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "60462519010-48rjml20agebk2125q47tqk8gr1e3qku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

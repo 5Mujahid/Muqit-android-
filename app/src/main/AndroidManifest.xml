@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.muqitt">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-sdk tools:overrideLibrary="com.stripe.android"/>
+
+    <application
+        android:name="com.example.muqitt.ServiceProviderApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/muqitlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/muqitlogo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:allowBackup"
+        >
+
+        <activity android:name="com.example.muqitt.activities.PackageDetailActivity"/>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_api_key" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/ad_app_id" />
+
+        <activity
+            android:name="com.example.muqitt.activities.LoginActivity"
+            android:configChanges="keyboard|screenSize"
+            android:label="@string/action_sign_in"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.muqitt.activities.NavigationDrawerActivity"
+            android:configChanges="locale"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+
+                <action android:name="android.intent.action.VIEW" />
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.muqitt.activities.WizardActivty"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.muqitt.activities.SplashScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.muqitt.activities.RecoverPasswordActivity"
+            android:label="@string/action_sign_in" />
+        <activity
+            android:name="com.example.muqitt.activities.SignupActivity"
+            android:label="@string/action_join"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity android:name="com.example.muqitt.activities.BaseActivity" />
+        <activity
+            android:name="com.example.muqitt.activities.ContactUsActivity"
+            android:label="@string/tab_contact_us" />
+        <activity
+            android:name="com.example.muqitt.activities.MyAppointmentsActivity"
+            android:label="@string/tab_appointments" />
+        <activity android:name="com.example.muqitt.activities.ProviderListActivity" />
+        <activity android:name="com.example.muqitt.activities.ProviderDetailActivity" />
+        <activity android:name="com.example.muqitt.activities.CategoryListActivity" />
+        <activity
+            android:name="com.example.muqitt.activities.AdvanceSearch"
+            android:label="@string/title_activity_advance_search" />
+        <activity android:name="com.example.muqitt.activities.SelectableItemActivity" />
+        <activity android:name="com.example.muqitt.activities.SearchResultActivity" />
+        <activity android:name="com.example.muqitt.activities.ProviderServicesActivity" />
+        <activity android:name="com.example.muqitt.activities.BusinessHoursActivity" />
+        <activity android:name="com.example.muqitt.activities.ProviderExperienceActivity" />
+        <activity android:name="com.example.muqitt.activities.ProviderQualificationActivity" />
+        <activity android:name="com.example.muqitt.activities.ProviderAwardsActivity" />
+        <activity android:name="com.example.muqitt.activities.SingletemListActivity" />
+        <activity android:name="com.example.muqitt.activities.WebviewActivity" />
+        <activity android:name="com.example.muqitt.activities.CommonProviderInfoActivity" />
+        <activity android:name="com.example.muqitt.activities.BookAppointmentActivity" />
+        <activity android:name="com.example.muqitt.activities.BookAppointmentDetailActivity" />
+        <activity
+            android:name="com.example.muqitt.activities.PhoneNumberVerificationActivity"
+            android:windowSoftInputMode="stateAlwaysVisible" />
+        <activity android:name="com.example.muqitt.activities.ReviewProviderActivity" />
+        <activity android:name="com.example.muqitt.activities.ProviderReviewsActivity" />
+
+        <service android:name="com.example.muqitt.fcm.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service android:name="com.example.muqitt.fcm.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+
+        <activity android:name="com.example.muqitt.activities.AppointmentDetailActivity" />
+        <activity android:name="com.example.muqitt.activities.RejectAppointmentActivity" />
+        <activity android:name="com.example.muqitt.activities.JobDetailActivity" />
+        <activity android:name="com.example.muqitt.chat.ChatActivity" />
+
+        <service
+            android:name="com.example.muqitt.Utils.StickyService"
+            android:enabled="true" />
+
+        <meta-data
+            android:name="com.onesignal.NotificationOpened.DEFAULT"
+            android:value="DISABLE" />
+
+        <activity
+            android:name="com.example.muqitt.activities.ProfileActivity"
+            android:label="@string/title_activity_profile" />
+        <activity
+            android:name="com.example.muqitt.fragments.NearByActivity"
+            android:label="@string/title_activity_near_by" />
+        <activity
+            android:name="com.example.muqitt.activities.SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name="com.example.muqitt.activities.GalleryActivity"
+            android:label="@string/txt_media" />
+        <activity android:name="com.example.muqitt.activities.ImageSlideActivity" />
+    </application>
+
+</manifest>

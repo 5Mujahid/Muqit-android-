@@ -1,0 +1,632 @@
+<resources>
+    <string name="app_name">مقیت</string>
+
+    <string name="map_api_key">YOUR_API_KEY</string>
+    <string name="ad_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ad_enabled">false</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">ای میل</string>
+    <string name="prompt_password">پاس ورڈ</string>
+    <string name="action_sign_in">ابھی سائن ان کریں۔</string>
+    <string name="action_join">ابھی شامل ہوں۔</string>
+    <string name="action_sign_in_short">سائن ان کریں۔</string>
+    <string name="error_invalid_email">یہ ای میل ایڈریس غلط ہے۔</string>
+    <string name="error_invalid_password">یہ پاس ورڈ بہت چھوٹا ہے۔</string>
+    <string name="error_incorrect_password">یہ پاس ورڈ غلط ہے</string>
+
+
+    <string name="error_field_required">اس کو پر کرنا ضروری ہے</string>
+    <string name="permission_rationale">"ای میل فراہم کرنے کے لئے رابطوں کی اجازت کی ضرورت ہے۔
+
+    </string>
+    <string name="title_activity_navigation_drawer">گھر</string>
+
+    <string name="navigation_drawer_open">نیویگیشن دراز کو کھولیں۔</string>
+    <string name="navigation_drawer_close">نیویگیشن دراز کو بند کریں۔</string>
+
+    <string name="action_settings">ترتیبات</string>
+
+    <string name="title_activity_wizard_activty">مددگار سرگرمی</string>
+    <string name="dummy_button">ڈمی بٹن</string>
+    <string name="dummy_content">ڈمی \ مواد</string>
+    <string name="do_not_have_and_account_create_account">کھاتہ نہیں ہے کیا؟<b> اکاؤنٹ بنائیں </b></string>
+    <string name="already_have_and_account_create_account">پہلے سے ہی ایک اکاؤنٹ ہے؟ <b> ابھی سائن ان کریں۔ </b></string>
+    <string name="forgot_your_password">اپنا پاس ورڈ بھول گئے؟
+
+</string>
+
+    <string name="password_reset_link">کلک کی بازیافت کے بعد پاس ورڈ کی دوبارہ ترتیب کا لنک آپ کے ای میل پر بھیجا جائے گا۔
+
+</string>
+    <string name="you_agree_to_comply_with_the_supplemental_terms_amp_conditions_set_forth_in_this_agreement">آپ اس معاہدے میں طے شدہ اضافی شرائط و ضوابط پر عمل کرنے پر متفق ہیں۔
+
+</string>
+
+    <array name="business_category">
+        <item>کاروباری زمرہ۔</item>
+    </array>
+
+
+    <array name="business_sub_category">
+        <item>بزنس ذیلی زمرہ۔</item>
+    </array>
+    <array name="business_gender">
+        <item>صنف</item>
+        <item>مرد</item>
+        <item>عورت</item>
+    </array>
+    <array name="basic_info_gender">
+        <item>صنف</item>
+        <item>مرد</item>
+        <item>عورت</item>
+    </array>
+    <array name="basic_info_country">
+        <item>ملک کا انتخاب کریں۔</item>
+    </array>
+    <array name="basic_info_city">
+        <item>شہر کا انتخاب کریں۔</item>
+    </array>
+    <array name="review_time">
+        <item>کل انتظار کا وقت</item>
+        <item>15 منٹ</item>
+        <item>20 منٹ</item>
+        <item>30 منٹ</item>
+    </array>
+    <array name="sort_appointment">
+        <item>بہ ترتیب:</item>
+        <item>پہچان</item>
+        <item>مصنف۔</item>
+    </array>
+    <string name="title_activity_advance_search">اعلی درجے کی تلاش۔</string>
+    <string name="about_us">ہمارے بارے میں</string>
+    <string name="contact_us">ہم سے رابطہ کریں</string>
+    <string name="help_support">مدد اور حمایت </string>
+    <string name="terms_of_use">استعمال کرنے کی شرائط</string>
+    <string name="advance_search">اعلی درجے کی تلاش۔</string>
+    <string name="all_categories">تمام زمرے</string>
+    <string name="sign_in_now">ابھی سائن ان کریں۔</string>
+    <string name="logging_in">لاگ ان ہو رہا ہے…</string>
+    <string name="sign_up">رجسٹر ہو رہا ہے…</string>
+    <string name="register_now">ابھی رجسٹر کریں</string>
+    <string name="required_field">اس کو پر کرنا ضروری ہے!</string>
+    <string name="featured_provider">نمایاں فراہم کنندہ۔</string>
+    <string name="regular_single_user">باقاعدہ واحد صارف</string>
+    <string name="company_professional">کمپنی / پیشہ ور۔</string>
+    <string name="make_appointment">ملاقات طے کرو</string>
+    <string name="tite_leave_review">اپنا جائزہ چھوڑیں۔</string>
+    <string name="wizard_skip">چھوڑ دو</string>
+    <string name="wizard_join">شامل ہوں</string>
+    <string name="tab_services">خدمات</string>
+    <string name="tab_business_hours">کاروباری اوقات</string>
+    <string name="tab_experience">تجربہ۔</string>
+    <string name="tab_qualification">اہلیت!</string>
+    <string name="tab_certificates">! سرٹیفکیٹ اور ایوارڈ></string>
+    <string name="tab_languages">زبانیں۔</string>
+    <string name="tab_amenities">!سہولیات اور خصوصیات</string>
+    <string name="err_login_first">ملاقات کے لئے پہلے لاگ ان کریں.</string>
+    <string name="err_login_to_review">براہ کرم جائزہ لینے کے لئے پہلے لاگ ان کریں۔</string>
+    <string name="err_login_to_chat">براہ کرم فراہم کنندہ کے ساتھ چیٹ کرنے کیلئے پہلے لاگ ان کریں۔
+
+</string>
+    <string name="err_session_expire_to_chat">آپ کے سیشن کی میعاد ختم ہوگئی ہے۔ براہ کرم دوبارہ لاگ ان کریں۔
+
+</string>
+    <string name="err_login_to_fvrt">براہ کرم صارف کو پسندیدہ فہرست میں شامل کرنے کیلئے لاگ ان کریں۔</string>
+    <string name="tab_appointments">My Appointments</string>
+    <string name="tab_contact_us">ہم سے رابطہ کریں</string>
+    <string name="msg_logout">کیا آپ واقعی سائن آؤٹ کرنا چاہتے ہیں؟
+
+</string>
+    <string name="title_yes">جی ہاں</string>
+    <string name="title_no">نہیں</string>
+    <string name="title_category">قسم</string>
+    <string name="title_country">ملک</string>
+    <string name="title_city">شہر۔</string>
+    <string name="title_sub_category">ذیلی زمرہ۔</string>
+    <string name="msg_select_category">براہ کرم پہلے کسی بھی قسم کا انتخاب کریں۔
+
+</string>
+    <string name="msg_select_country">براہ کرم پہلے کسی بھی ملک کا انتخاب کریں۔</string>
+    <string name="err_something_wrong">کچھ غلط ہو گیا. براہ کرم اپنا انٹرنیٹ کنکشن چیک کریں اور بعد میں دوبارہ کوشش کریں!</string>
+    <string name="err_no_internet">انٹرنیٹ کنکشن نہیں!</string>
+    <string name="msg_finalizing_appointment">تقرری کو حتمی شکل دی جارہی ہے…</string>
+    <string name="msg_phone_verification">فون نمبر کی تصدیق کر رہا ہے…</string>
+    <string name="code_not_valid">درج کردہ کوڈ درست نہیں ہے!</string>
+    <string name="set_location">مقام مقرر کریں</string>
+    <string name="welcome_amp_greetings">خوش آمدید اور سلام۔!</string>
+    <string name="an_ultimate_directory_for_service_providers">سروس فراہم کرنے والوں کے لئے ایک حتمی ڈائرکٹری</string>
+    <string name="register_as">بطور رجسٹر:</string>
+    <string name="your_name">تمھارا نام</string>
+    <string name="msg_business">کاروبار۔</string>
+    <string name="msg_professional">پیشہ ور۔</string>
+    <string name="msg_company_title">کمپنی کا عنوان۔</string>
+    <string name="msg_phone">فون</string>
+    <string name="hint_retype_password">دوبارہ پاسوورڈ لکھئے</string>
+    <string name="hint_enter_location">ایک جگہ درج کریں۔</string>
+    <string name="hint_lattitude">عرض البلد درج کریں</string>
+    <string name="hint_longitude">طول البلد داخل کریں۔</string>
+    <string name="btn_register_now">ابھی رجسٹر کریں</string>
+    <string name="hint_category">قسم:</string>
+    <string name="start_your_search">اپنی تلاش شروع کریں</string>
+    <string name="hint_keyword">مطلوبہ الفاظ</string>
+    <string name="title_view_all"><![CDATA[سب دیکھیں]]></string>
+    <string name="title_featured_listing">نمایاں فہرست</string>
+    <string name="title_top_categories">اوپر کیٹیگریز</string>
+    <string name="title_advanced_search">اعلی درجے کی تلاش</string>
+    <string name="title_search_now">ابھی تلاش کریں</string>
+    <string name="title_register">رجسٹر کریں</string>
+    <string name="title_login">لاگ ان کریں</string>
+    <string name="title_my_appointments">میری تقرریوں</string>
+    <string name="title_jobs">نوکریاں</string>
+    <string name="title_about_us">ہمارے بارے میں</string>
+    <string name="title_terms_of_use">استعمال کرنے کی شرائط</string>
+    <string name="title_help_amp_support"><![CDATA[مدد اور حمایت]]></string>
+    <string name="title_contact_support">سپورٹ سے رابطہ کریں</string>
+    <string name="title_invite">دوستوں کو مدعو کریں</string>
+    <string name="title_rate">اس ایپ کی درجہ بندی کریں</string>
+    <string name="title_logout">لاگ آوٹ</string>
+    <string name="title_general">جنرل۔</string>
+    <string name="title_dashboard">ڈیش بورڈ</string>
+    <string name="title_services">خدمات</string>
+    <string name="title_appointment_type">تقرری کی قسم</string>
+    <string name="title_appointment_reason">تقرری کی وجہ۔</string>
+    <string name="title_add_photo">تصویر لگاو</string>
+    <string name="title_add_now">ابھی شامل کریں۔</string>
+    <string name="title_upload_banner">بینر کی تصویر اپ لوڈ کریں۔</string>
+    <string name="title_select_categories">زمرے منتخب کریں</string>
+    <string name="title_basic_information">بنیادی معلومات</string>
+    <string name="title_tagline">ٹیگ لائن</string>
+    <string name="title_zip">پوسٹل کوڈ</string>
+    <string name="title_fax">فیکس</string>
+    <string name="title_url">یو آر ایل</string>
+    <string name="title_short_descrip">مختصر کوائف</string>
+    <string name="title_location">مقام۔</string>
+    <string name="title_languages">زبانیں۔</string>
+    <string name="title_update_now">تازہ ترین کریں. جدید بنایں</string>
+    <string name="title_imp_instructions">اہم ہدایات:</string>
+    <string name="location_note">براہ مہربانی نوٹ کریں ! نقشے پر تلاش کے لئے عرض بلد اور طول البلد کے نیچے دیا جانا لازمی ہے۔</string>
+
+
+    <string name="title_manage_services">خدمات کا انتظام کریں</string>
+    <string name="title_manage_team">ٹیم کا انتظام کریں۔</string>
+    <string name="title_manage_jobs">ملازمتوں کا انتظام کریں۔</string>
+    <string name="title_manage_articles">مضامین کا نظم کریں</string>
+    <string name="title_manage_appointments">تقرریوں کا نظم کریں۔</string>
+    <string name="title_favorite_listing">پسندیدہ فہرست</string>
+    <string name="title_security_setting">سیکورٹی کی ترتیبات</string>
+    <string name="title_privacy_setting">رازداری کی ترتیبات۔</string>
+
+    <string name="no_vote">(0 vote)</string>
+    <string name="make_appointement">تقرری کریں</string>
+    <string name="txt_call">Call:&#160;</string>
+    <string name="txt_search_by_keyword">مطلوبہ الفاظ کے لحاظ سے تلاش کریں۔</string>
+    <string name="title_website">ویب سائٹ</string>
+    <string name="title_email">ای میل</string>
+    <string name="select_time_slot">براہ کرم کسی بھی وقت کی سلاٹ منتخب کریں۔!</string>
+    <string name="msg_book_appointment">بکنگ ملاقات…</string>
+    <string name="select_appointment_date">تقرری کی تاریخ منتخب کریں۔</string>
+    <string name="select_appointment_time">تقرری کا وقت منتخب کریں۔</string>
+    <string name="start_booking">بکنگ شروع کرو۔</string>
+    <string name="txt_space_left">خالی جگہیں:&#160;</string>
+    <string name="waiting_for_automatically_detect_an_sms_sent_to">بھیجے گئے SMS کا خود بخود پتہ لگانے کا انتظار کریں۔</string>
+    <string name="verify">تصدیق کریں۔</string>
+    <string name="enter_code_here">کوڈ ڈالئے</string>
+    <string name="title_resend">دوبارہ بھیجیں۔</string>
+    <string name="title_verify">تصدیق کریں۔</string>
+    <string name="enter_keyword">مطلوبہ الفاظ درج کریں</string>
+    <string name="search_by_category">زمرہ کے لحاظ سے تلاش کریں۔</string>
+    <string name="category">قسم:</string>
+    <string name="sub_category"> ذیلی زمرہ:</string>
+    <string name="search_by_location">مقام کے لحاظ سے تلاش کریں</string>
+    <string name="city">شہر:</string>
+    <string name="enter_zip_code">زپ کوڈ درج</string>
+    <string name="search">تلاش کریں۔</string>
+    <string name="distance_in_miles">(میل) میں دوری&#160;</string>
+    <string name="msg_exit">کیا آپ کو یقین ہے کہ آپ ہیاں سے نکلنا چاہتے ہیں؟
+
+</string>
+    <string name="last_name">آخری نام</string>
+    <string name="first_name">پہلا نام</string>
+    <string name="version">ورژن۔ &#160;</string>
+    <string name="copyright_2017_the_listingo">کاپی رائٹ @ 2017 دی لسٹو۔</string>
+    <string name="title_introduction">تعارف۔</string>
+    <string name="btn_direction">سمت</string>
+    <string name="who_we_are_amp_what_we_do"><![CDATA[ہم کون ہیں اور ہم کیا کرتے ہیں؟]]></string>
+    <string name="txt_services">خدمات</string>
+    <string name="txt_business_hours">کاروباری اوقات</string>
+    <string name="txt_experience">تجربہ۔</string>
+    <string name="txt_qualification">اہلیت</string>
+    <string name="txt_certificates_amp_awards"><![CDATA[سرٹیفکیٹ اور ایوارڈ]]></string>
+    <string name="txt_our_team">ہماری ٹیم</string>
+    <string name="txt_languages">زبانیں۔</string>
+    <string name="txt_amenities_amp_features"><![CDATA[سہولیات اور خصوصیات]]></string>
+    <string name="txt_media">میڈیا۔</string>
+    <string name="txt_downloads">ڈاؤن لوڈ</string>
+    <string name="txt_contact_us">ہم سے رابطہ کریں</string>
+    <string name="click_to_add_photo">"فوٹو شامل کریں" کے بٹن پر کلک کریں۔ <br />پروفائل فوٹو / لوگو شامل کریں۔</string>
+    <string name="click_to_add_banner"> تصویر شامل کریں" کے بٹن پر کلک کریں <br /> بینر فوٹو شامل کریں۔
+
+</string>
+    <string name="click_to_update_profile">پروفائل کو اپ ڈیٹ کرنے کے لئے کلک کریں۔"</string>
+
+    <string name="dlg_msg_submit_review">جائزہ جمع کر رہا ہے…</string>
+    <string name="msg_select_wait_time">براہ کرم انتظار کا وقت منتخب کریں۔</string>
+    <string name="review_title">جائزہ عنوان</string>
+    <string name="would_your_recommend">آپ کی سفارش کریں گے</string>
+    <string name="btn_yes">جی ہاں</string>
+    <string name="btn_no">نہیں</string>
+    <string name="filter_by_date">تاریخ کے لحاظ سے فلٹر کریں</string>
+    <string name="click_to_update_now_button_to_n_update_the_latest_added_details">ابھی بٹن کو اپ ڈیٹ کرنے کے لئے کلک کریں \ n تازہ ترین شامل کردہ تفصیلات کو اپ ڈیٹ کریں۔
+
+</string>
+    <string name="buy_package">نیا پیکیج خریدنے کے لئے "اب بٹن خریدیں / تجدید کریں" پر کلک کریں۔</string>
+
+    <string name="description">تفصیل</string>
+
+    <string name="title_leave_your_rating">آپ کی درجہ بندی چھوڑ دو</string>
+    <string name="title_ease_of_appointment">تقرری میں آسانی</string>
+    <string name="title_promptness">جلدی۔</string>
+    <string name="title_courteous_staff">بشکریہ عملہ۔</string>
+    <string name="title_accurate_diagnosis">درست تشخیص۔</string>
+    <string name="title_professional_manner">پیشہ ورانہ سلوک۔</string>
+    <string name="title_spends_time_with_me">میرے ساتھ وقت گزارتا ہے۔</string>
+    <string name="title_follow_up_after_visit">وزٹ کے بعد فالو اپ کریں۔</string>
+    <string name="title_work_knowledge">کام کا علم۔</string>
+    <string name="btn_submit">جمع کرائیں</string>
+
+    <plurals name="numberOfVotes">
+        <item quantity="one">&#160;ووٹ</item>
+        <item quantity="other">&#160;ووٹ</item>
+    </plurals>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <string name="default_notification_channel_name" translatable="true">خبریں</string>
+    <string name="msg_update_services">خدمات کی تازہ کاری…</string>
+    <string name="title_reviews">جائزہ</string>
+    <string name="msg_updating_fvrt">پسندیدہ تازہ کاری…</string>
+    <string name="msg_updating_privacy">رازداری کو اپ ڈیٹ کیا جا رہا ہے…</string>
+
+    <string name="title_home">گھر</string>
+    <string name="reject_appointment">تقرری کو مسترد کریں۔</string>
+    <string name="fetching_appointments">تقرریوں کی بازیافت…</string>
+
+    <string name="click_to_update_privacy">تازہ ترین ترتیبات کو اپ ڈیٹ کرنے کیلئے \ "رازداری کو اپ ڈیٹ کریں " کے لئے بٹن پر پر کلک کریں۔</string>
+    <string name="click_to_update">تازہ ترین ترتیبات کو اپ ڈیٹ کرنے کیلئے \ "ابھی تازہ کاری کریں \" کے لئے بٹن پر کلک کریں۔</string>
+
+    <string name="update_privacy">رازداری کو اپ ڈیٹ کریں۔</string>
+    <string name="tlt_make_profile_photo_public">پروفائل فوٹو عوامی بنائیں۔</string>
+    <string name="tlt_make_banner_photo_public">بینر فوٹو کو عوامی بنائیں</string>
+    <string name="tlt_appointment_option">تقرری کا اختیار۔</string>
+    <string name="tlt_contact_form">رابطہ فارم</string>
+    <string name="tlt_business_hours">کاروباری اوقات</string>
+    <string name="tlt_show_services">خدمات دکھائیں۔</string>
+    <string name="tlt_show_team">ٹیم دکھائیں۔</string>
+    <string name="tlt_show_gallery">گیلری دکھائیں</string>
+    <string name="tlt_show_videos">ویڈیوز دکھائیں</string>
+    <string name="loading_settings">ترتیبات لوڈ ہورہے ہیں…</string>
+    <string name="no_record_found">کوئی ریکارڈ نہیں ملا</string>
+    <string name="update_now">تازہ ترین کریں. جدید بنایں</string>
+    <string name="txt_enter_message">پیغام درج کریں۔</string>
+    <string name="tlt_done">ہو گیا</string>
+    <string name="select">منتخب کریں۔</string>
+    <string name="clear_selection">انتخاب صاف کریں</string>
+    <string name="no_data_available">کوئی ڈیٹا میسر نہیں</string>
+    <string name="add_your_services">اپنی خدمات شامل کریں۔</string>
+    <string name="phone_num_verification">فون نمبر کی توثیق
+
+</string>
+    <string name="add_new">نیا شامل کریں +</string>
+
+    <string name="msg_updating">تازہ کاری ہو رہی ہے…</string>
+
+    <array name="service_price_type">
+        <item>قیمت کی قسم کا انتخاب کریں۔</item>
+        <item>گھنٹے</item>
+        <item>ملاحظہ کریں</item>
+    </array>
+
+    <string-array name="CountryCodes">
+        <item>93,AF</item>
+        <item>355,AL</item>
+        <item>213,DZ</item>
+        <item>376,AD</item>
+        <item>244,AO</item>
+        <item>672,AQ</item>
+        <item>54,AR</item>
+        <item>374,AM</item>
+        <item>297,AW</item>
+        <item>61,AU</item>
+        <item>43,AT</item>
+        <item>994,AZ</item>
+        <item>973,BH</item>
+        <item>880,BD</item>
+        <item>375,BY</item>
+        <item>32,BE</item>
+        <item>501,BZ</item>
+        <item>229,BJ</item>
+        <item>975,BT</item>
+        <item>591,BO</item>
+        <item>387,BA</item>
+        <item>267,BW</item>
+        <item>55,BR</item>
+        <item>673,BN</item>
+        <item>359,BG</item>
+        <item>226,BF</item>
+        <item>95,MM</item>
+        <item>257,BI</item>
+        <item>855,KH</item>
+        <item>237,CM</item>
+        <item>1,CA</item>
+        <item>238,CV</item>
+        <item>236,CF</item>
+        <item>235,TD</item>
+        <item>56,CL</item>
+        <item>86,CN</item>
+        <item>61,CX</item>
+        <item>61,CC</item>
+        <item>57,CO</item>
+        <item>269,KM</item>
+        <item>242,CG</item>
+        <item>243,CD</item>
+        <item>682,CK</item>
+        <item>506,CR</item>
+        <item>385,HR</item>
+        <item>53,CU</item>
+        <item>357,CY</item>
+        <item>420,CZ</item>
+        <item>45,DK</item>
+        <item>253,DJ</item>
+        <item>670,TL</item>
+        <item>593,EC</item>
+        <item>20,EG</item>
+        <item>503,SV</item>
+        <item>240,GQ</item>
+        <item>291,ER</item>
+        <item>372,EE</item>
+        <item>251,ET</item>
+        <item>500,FK</item>
+        <item>298,FO</item>
+        <item>679,FJ</item>
+        <item>358,FI</item>
+        <item>33,FR</item>
+        <item>689,PF</item>
+        <item>241,GA</item>
+        <item>220,GM</item>
+        <item>995,GE</item>
+        <item>49,DE</item>
+        <item>233,GH</item>
+        <item>350,GI</item>
+        <item>30,GR</item>
+        <item>299,GL</item>
+        <item>502,GT</item>
+        <item>224,GN</item>
+        <item>245,GW</item>
+        <item>592,GY</item>
+        <item>509,HT</item>
+        <item>504,HN</item>
+        <item>852,HK</item>
+        <item>36,HU</item>
+        <item>91,IN</item>
+        <item>62,ID</item>
+        <item>98,IR</item>
+        <item>964,IQ</item>
+        <item>353,IE</item>
+        <item>44,IM</item>
+        <item>972,IL</item>
+        <item>39,IT</item>
+        <item>225,CI</item>
+        <item>81,JP</item>
+        <item>962,JO</item>
+        <item>7,KZ</item>
+        <item>254,KE</item>
+        <item>686,KI</item>
+        <item>965,KW</item>
+        <item>996,KG</item>
+        <item>856,LA</item>
+        <item>371,LV</item>
+        <item>961,LB</item>
+        <item>266,LS</item>
+        <item>231,LR</item>
+        <item>218,LY</item>
+        <item>423,LI</item>
+        <item>370,LT</item>
+        <item>352,LU</item>
+        <item>853,MO</item>
+        <item>389,MK</item>
+        <item>261,MG</item>
+        <item>265,MW</item>
+        <item>60,MY</item>
+        <item>960,MV</item>
+        <item>223,ML</item>
+        <item>356,MT</item>
+        <item>692,MH</item>
+        <item>222,MR</item>
+        <item>230,MU</item>
+        <item>262,YT</item>
+        <item>52,MX</item>
+        <item>691,FM</item>
+        <item>373,MD</item>
+        <item>377,MC</item>
+        <item>976,MN</item>
+        <item>382,ME</item>
+        <item>212,MA</item>
+        <item>258,MZ</item>
+        <item>264,NA</item>
+        <item>674,NR</item>
+        <item>977,NP</item>
+        <item>31,NL</item>
+        <item>599,AN</item>
+        <item>687,NC</item>
+        <item>64,NZ</item>
+        <item>505,NI</item>
+        <item>227,NE</item>
+        <item>234,NG</item>
+        <item>683,NU</item>
+        <item>850,KP</item>
+        <item>47,NO</item>
+        <item>968,OM</item>
+        <item>92,PK</item>
+        <item>680,PW</item>
+        <item>507,PA</item>
+        <item>675,PG</item>
+        <item>595,PY</item>
+        <item>51,PE</item>
+        <item>63,PH</item>
+        <item>870,PN</item>
+        <item>48,PL</item>
+        <item>351,PT</item>
+        <item>1,PR</item>
+        <item>974,QA</item>
+        <item>40,RO</item>
+        <item>7,RU</item>
+        <item>250,RW</item>
+        <item>590,BL</item>
+        <item>685,WS</item>
+        <item>378,SM</item>
+        <item>239,ST</item>
+        <item>966,SA</item>
+        <item>221,SN</item>
+        <item>381,RS</item>
+        <item>248,SC</item>
+        <item>232,SL</item>
+        <item>65,SG</item>
+        <item>421,SK</item>
+        <item>386,SI</item>
+        <item>677,SB</item>
+        <item>252,SO</item>
+        <item>27,ZA</item>
+        <item>82,KR</item>
+        <item>34,ES</item>
+        <item>94,LK</item>
+        <item>290,SH</item>
+        <item>508,PM</item>
+        <item>249,SD</item>
+        <item>597,SR</item>
+        <item>268,SZ</item>
+        <item>46,SE</item>
+        <item>41,CH</item>
+        <item>963,SY</item>
+        <item>886,TW</item>
+        <item>992,TJ</item>
+        <item>255,TZ</item>
+        <item>66,TH</item>
+        <item>228,TG</item>
+        <item>690,TK</item>
+        <item>676,TO</item>
+        <item>216,TN</item>
+        <item>90,TR</item>
+        <item>993,TM</item>
+        <item>688,TV</item>
+        <item>971,AE</item>
+        <item>256,UG</item>
+        <item>44,GB</item>
+        <item>380,UA</item>
+        <item>598,UY</item>
+        <item>1,US</item>
+        <item>998,UZ</item>
+        <item>678,VU</item>
+        <item>39,VA</item>
+        <item>58,VE</item>
+        <item>84,VN</item>
+        <item>681,WF</item>
+        <item>967,YE</item>
+        <item>260,ZM</item>
+        <item>263,ZW</item>
+    </string-array>
+    <string-array name="categories">
+        <item>زمرے منتخب کریں۔</item>
+    </string-array>
+    <string-array name="languages">
+        <item>زبانیں منتخب کریں</item>
+    </string-array>
+
+    <string name="title_activity_near_by">قریبی فراہم کنندہ</string>
+    <string name="title_activity_settings">ترتیبات</string>
+    <string name="title_activity_profile">پروفائل کا نظم کریں۔</string>
+    <string name="guest">مہمان</string>
+    <string name="greetings">سلام۔</string>
+    <string name="msg_uploading">اپ لوڈ ہو رہا ہے…</string>
+
+    <string-array name="locale">
+        <item>ایپ کی زبان منتخب کریں۔</item>
+        <item>انگریزی</item>
+        <item>ہسپانوی</item>
+        <item>انڈونیشی</item>
+        <item>اردو</item>
+    </string-array>
+
+    <string name="default_locale">en</string>
+
+    <string name="my_favorites">میرے پسندیدہ</string>
+    <string name="search_result">تلاش کا نتیجہ</string>
+    <string name="jobs">نوکریاں</string>
+    <string name="manage_services">خدمات کا انتظام کریں</string>
+    <string name="inbox">ان باکس۔</string>
+    <string name="upload_profile_photo_logo">پروفائل فوٹو / لوگو اپ لوڈ کریں</string>
+    <string name="rate_app">شرح کی درخواست</string>
+    <string name="please_rate_this_app">براہ کرم ، پلے اسٹور پر ایپ کی درجہ بندی کریں۔
+
+</string>
+    <string name="title_cancel">کینسل</string>
+    <string name="btn_rate">شرح</string>
+    <string name="apt_service">خدمت:</string>
+    <string name="apt_type">قسم:</string>
+    <string name="your_appointments">آپ کی تقرریوں</string>
+    <string name="clear_filter">فلٹر صاف کریں</string>
+    <string name="no_appointment_yet">ابھی کوئی ملاقات نہیں ہوئی</string>
+    <string name="customer_name">گاہک کا نام:</string>
+    <string name="appointment_date">تقرری کی تاریخ:</string>
+    <string name="appointment_time">تقرری کا وقت:</string>
+    <string name="service">خدمت:</string>
+    <string name="appointment_type">تقرری کی قسم:</string>
+    <string name="approve_now">ابھی منظور کریں</string>
+    <string name="apt_description">تفصیل:</string>
+    <string name="reason_for_visit">دورے کی وجہ:</string>
+    <string name="tlt_monday">پیر</string>
+    <string name="tlt_tuesday">منگل۔</string>
+    <string name="tlt_wednesday">بدھ</string>
+    <string name="tlt_thursday">جمعرات۔</string>
+    <string name="tlt_friday">جمعہ۔</string>
+    <string name="tlt_saturday">ہفتہ۔</string>
+    <string name="tlt_sunday">اتوار</string>
+    <string name="apply_now">اب لگائیں</string>
+    <string name="career_level">کیریئر کی سطح</string>
+    <string name="experience">تجربہ</string>
+    <string name="salary">تنخواہ</string>
+    <string name="job_type">ملازمت کی قسم:</string>
+    <string name="qualification">اہلیت</string>
+    <string name="language_s">زبان / زبانیں:</string>
+    <string name="job_requirements">ملازمت کی شرائط</string>
+    <string name="job_details">ملازمت کی تفصیلات</string>
+    <string name="service_title">خدمت کا عنوان</string>
+    <string name="service_price">خدمت کی قیمت</string>
+    <string name="add_this_service_in_appointment_list">اس خدمت کو تقرری کی فہرست میں شامل کریں۔</string>
+    <string name="this_is_a_free_service">یہ ایک مفت خدمت ہے۔</string>
+    <string name="email_pass_wrong">ای میل یا پاس ورڈ غلط ہے!</string>
+    <string name="rejection_title">مسترد کرنے کا عنوان۔</string>
+    <string name="rejection_description">مسترد کرنے کی تفصیل</string>
+    <string name="reject_now">ابھی مسترد کریں۔</string>
+    <string name="rejection_reason">مسترد ہونے کی وجہ</string>
+    <string name="appointment_information">تقرری کی معلومات</string>
+    <string name="reason">وجہ:</string>
+    <string name="your_details">آپ کی تفصیلات</string>
+    <string name="name">نام۔</string>
+    <string name="email">ای میل</string>
+    <string name="phone">فون</string>
+    <string name="submit">جمع کرائیں</string>
+    <string name="apt_approve">منظور کریں۔</string>
+    <string name="apt_decline">رد</string>
+    <string name="radius_miles">رداس (میل):</string>
+    <string name="country">ملک:</string>
+    <string name="other">دیگر</string>
+    <string name="not_verified"> Learn to pronounce
+
+براہ کرم ہماری خدمات کو استعمال کرنے سے پہلے اپنے اکاؤنٹ کو چالو کریں یا اپنا اکاؤنٹ چالو کرنے کے لیئے ایڈمنسٹریٹر سے رابطہ کریں۔</string>
+
+
+</resources>
